@@ -1,0 +1,152 @@
+#head {
+  padding: 25px 250px 10px 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+li:hover a {
+  color: #0282f9;
+}
+
+a {
+  color: #4a4d52;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#teenTitans {
+  height: 410px;
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+}
+#teenTitans #currentSeries {
+  color: white;
+  background-color: #0282f9;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+  top: 380px;
+  right: 510px;
+}
+
+#cards {
+  background-color: #1c1c1c;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 300px 50px 300px;
+  flex-wrap: wrap;
+}
+#cards .card {
+  flex-basis: 14%;
+}
+#cards #load {
+  color: white;
+  background-color: #0282f9;
+  display: inline-block;
+  padding: 5px 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#collectibles {
+  background-color: #0282f9;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  padding: 100px;
+  gap: 50px;
+}
+#collectibles #item {
+  display: flex;
+  gap: 15px;
+}
+#collectibles #item span {
+  align-self: center;
+  color: white;
+}
+
+footer {
+  background-image: url("/images/footer-bg.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer #links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 600px;
+  height: 350px;
+  text-align: left;
+  padding: 0px 200px 50px 200px;
+}
+footer #last {
+  background-color: #303030;
+  height: 100px;
+}
+footer #last button {
+  color: white;
+  background-color: #303030;
+  display: inline-block;
+  border: 1px solid #0282f9;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  float: left;
+  margin-top: 28px;
+  margin-left: 200px;
+}
+footer #last #socials {
+  display: flex;
+  float: right;
+  margin-top: 40px;
+  margin-right: 400px;
+  gap: 20px;
+}
+footer #last #socials span {
+  font-weight: bold;
+  color: #0282f9;
+}
+span {
+  display: block;
+  color: #6e665f;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: white;
+}
+
+#dc {
+  position: relative;
+  bottom: 70px;
+  left: 400px;
+  width: 500px;
+  z-index: 1;
+}
+
+.card > img {
+  width: 192px;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h2 {
+  color: white;
+}
