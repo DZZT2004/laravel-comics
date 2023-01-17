@@ -8,7 +8,7 @@
         <title>Comics</title>
     </head>
     <body>
-        <div class="container">
+        <div id="app">
             <header class="row">
                 @include('partials.header')
             </header>

@@ -36,7 +36,7 @@
       <span>DC Universe</span>
       <span>DC Power Visa</span>
     </div>
-    <img id="dc" src="../assets/dc-logo-bg.png" alt="errore">
+    <img id="dc" src="{{asset('images/dc-logo-bg.png')}}" alt="errore">
   </div>
   <div id="last">
     <button>SIGN-UP NOW!</button>
